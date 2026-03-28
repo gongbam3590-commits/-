@@ -8,71 +8,78 @@
 </head>
 <body>
 
+<!-- 헤더 -->
 <header class="header">
   <div class="logo">우아한형제들</div>
   <nav>
     <ul class="nav">
-      <li>뉴스룸</li>
-      <li>우아한스토리</li>
+      <li>회사소개</li>
+      <li>서비스</li>
+      <li>지속가능경영</li>
+      <li class="active">뉴스룸</li>
     </ul>
   </nav>
 </header>
 
-<main class="container">
+<!-- 메인 -->
+<main>
 
-  <h1 class="title">뉴스룸</h1>
+  <!-- 상단 영역 -->
+  <section class="top-area">
+    <h1>뉴스룸</h1>
 
-  <ul class="tabs">
-    <li class="active">리포트</li>
-    <li>보도자료</li>
-  </ul>
+    <div class="search-box">
+      <input type="text" placeholder="검색해보세요">
+      <span>🔍</span>
+    </div>
 
-  <section class="cards">
+    <ul class="tabs">
+      <li class="active">알립니다</li>
+      <li>언론보도</li>
+      <li>이슈와 팩트</li>
+    </ul>
+  </section>
 
-    <!-- 카드 반복 -->
-    <article class="card">
-      <div class="thumb"></div>
-      <h2>우아한형제들 리포트 제목</h2>
-      <p>2026.03.28</p>
+  <!-- 리스트 -->
+  <section class="news-list">
+
+    <!-- 아이템 1 -->
+    <article class="news-item">
+      <img src="https://via.placeholder.com/300" alt="">
+      <div class="text">
+        <h2>배민, 소규모 카페에 ‘BTS THE CITY SEOUL 음료’ 무상 지원한다</h2>
+        <p class="date">2026.03.20</p>
+      </div>
     </article>
 
-    <article class="card">
-      <div class="thumb"></div>
-      <h2>데이터로 보는 배달 트렌드</h2>
-      <p>2026.03.20</p>
+    <!-- 아이템 2 -->
+    <article class="news-item">
+      <img src="https://via.placeholder.com/300" alt="">
+      <div class="text">
+        <h2>우아한형제들, 데이터 기반 외식 트렌드 발표</h2>
+        <p class="date">2026.03.18</p>
+      </div>
     </article>
 
-    <article class="card">
-      <div class="thumb"></div>
-      <h2>외식 산업 리포트</h2>
-      <p>2026.03.15</p>
-    </article>
-
-    <article class="card">
-      <div class="thumb"></div>
-      <h2>소비 패턴 변화 분석</h2>
-      <p>2026.03.10</p>
-    </article>
-
-    <article class="card">
-      <div class="thumb"></div>
-      <h2>배달 플랫폼 시장 동향</h2>
-      <p>2026.03.01</p>
-    </article>
-
-    <article class="card">
-      <div class="thumb"></div>
-      <h2>유저 행동 데이터 리포트</h2>
-      <p>2026.02.25</p>
+    <!-- 아이템 3 -->
+    <article class="news-item">
+      <img src="https://via.placeholder.com/300" alt="">
+      <div class="text">
+        <h2>배달 플랫폼 시장 변화 리포트 공개</h2>
+        <p class="date">2026.03.15</p>
+      </div>
     </article>
 
   </section>
 
 </main>
 
+<!-- 푸터 -->
 <footer class="footer">
   <p>© 우아한형제들</p>
 </footer>
 
 </body>
 </html>
+
+
