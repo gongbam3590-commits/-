@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>뉴스룸 클론</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- 헤더 -->
 <header class="header">
-  <div class="logo">우아한형제들</div>
+  <div class="logo">
+    <!-- 🔴 로고 이미지 -->
+    <img src="woowahan.png" alt="우아한형제들 로고">
+  </div>
+
   <nav>
     <ul class="nav">
       <li>회사소개</li>
@@ -21,16 +23,13 @@
   </nav>
 </header>
 
-<!-- 메인 -->
 <main>
 
-  <!-- 상단 영역 -->
   <section class="top-area">
     <h1>뉴스룸</h1>
 
     <div class="search-box">
       <input type="text" placeholder="검색해보세요">
-      <span>🔍</span>
     </div>
 
     <ul class="tabs">
@@ -40,30 +39,27 @@
     </ul>
   </section>
 
-  <!-- 리스트 -->
   <section class="news-list">
 
-    <!-- 아이템 1 -->
+    <!-- 🔴 첫 뉴스 (이미지 있음) -->
     <article class="news-item">
-      <img src="https://via.placeholder.com/300" alt="">
+      <img src="baemin.png" alt="배민 이미지">
+
       <div class="text">
         <h2>배민, 소규모 카페에 ‘BTS THE CITY SEOUL 음료’ 무상 지원한다</h2>
         <p class="date">2026.03.20</p>
       </div>
     </article>
 
-    <!-- 아이템 2 -->
+    <!-- 나머지는 텍스트 -->
     <article class="news-item">
-      <img src="https://via.placeholder.com/300" alt="">
       <div class="text">
         <h2>우아한형제들, 데이터 기반 외식 트렌드 발표</h2>
         <p class="date">2026.03.18</p>
       </div>
     </article>
 
-    <!-- 아이템 3 -->
     <article class="news-item">
-      <img src="https://via.placeholder.com/300" alt="">
       <div class="text">
         <h2>배달 플랫폼 시장 변화 리포트 공개</h2>
         <p class="date">2026.03.15</p>
@@ -74,12 +70,9 @@
 
 </main>
 
-<!-- 푸터 -->
 <footer class="footer">
   <p>© 우아한형제들</p>
 </footer>
 
 </body>
 </html>
-
-
