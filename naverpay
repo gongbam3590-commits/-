@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>네이버페이 버튼 - Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex items-center justify-center min-h-screen bg-gray-50">
+
+  <button class="flex items-center gap-1 bg-[#03C75A] hover:bg-[#02b351] text-white font-bold text-lg py-3 px-10 rounded-md shadow-sm transition-colors duration-200 border border-transparent">
+    <span class="text-xl font-black italic pr-1">N</span>
+    <span>Pay</span>
+  </button>
+
+</body>
+</html>
